@@ -98,3 +98,8 @@ body  {
 p{
 text-align: justify;
 }
+
+footer  {
+      text-align: left;
+    padding-left:  0.8%  ;
+}

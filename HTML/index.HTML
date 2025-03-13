@@ -1,172 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shield Shirts</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href=".CSS/Styles.css" />
-    <link rel="stylesheet" href=".CSS/Styles2.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shield Shirts - Innovación en Moda</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href=".CSS/Styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg  bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Shield Shirts</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-home"></i>
-                    Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.instagram.com/_davidl04/"><i class="fa fa-user"></i> Sobre Mi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://maps.app.goo.gl/Ve15CjeSwcPkNd238"> <i class="fa-solid fa-location-dot"></i> Dirección</a>
-                
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+<body class="bg-light">
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Shield Shirts</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home"><i class="fa fa-home"></i> Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about"><i class="fa fa-user"></i> Sobre Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services"><i class="fa-solid fa-briefcase"></i> Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#location"><i class="fa-solid fa-location-dot"></i> Contacto</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar">
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <header class="container text-center py-5" id="home">
+    <h1 class="display-4 fw-bold text-primary">Shield Shirts</h1>
+    <p class="lead">Innovación y estilo en cada prenda, personaliza tu look con camisas únicas.</p>
+    <div class="image-container">
+      <img src=".imgs/ShieldShirts.jpg" class="img-fluid rounded shadow" alt="Camisas" style="max-width: 50%;">
+    </div>
+  </header>
+  
+  <section class="container my-5" id="about">
+    <h2 class="text-center fw-bold mb-4">Sobre Nosotros</h2>
+    <p class="text-center">Somos una empresa dedicada a la personalización de camisas de alta calidad, fusionando tecnología y moda para ofrecerte lo mejor.</p>
+  </section>
+  
+  <section class="container my-5" id="categories">
+    <h2 class="text-center fw-bold mb-4">Categorías de Ropa Tradicionales</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Camisas Clásicas</h5>
+            <p class="card-text">Las mejores camisas de vestir para cualquier ocasión.</p>
           </div>
         </div>
-      </nav>
-
-</header>
-  <div class="container">
-      <div class="hero">
-        <div class="hero-img">
-          <img src=".imgs/ShieldShirts.jpg" alt="" />
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Camisas Casual</h5>
+            <p class="card-text">Perfectas para el día a día con estilo y comodidad.</p>
+          </div>
         </div>
-        <div class="hero-info">
-          <div class="hero-title">
-            <h1 class="titulo">Shield<br /><span>Shirts</span></h1>
-            <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus pariatur nostrum dicta, eum sapiente tempora, similique aliquam natus, corporis consequuntur enim sint fugiat in recusandae earum at minus exercitationem voluptatem!</p>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Camisas Deportivas</h5>
+            <p class="card-text">Para quienes buscan confort y rendimiento en sus prendas.</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <main>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-3" style="max-width: 550px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="..." class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Compra y Venta de Shirts</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-          <div class="col-md-4">
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="..." class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Personaliza tu diseño</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-          <div class="col-md-4">
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="..." class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Pedidos</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
+  </section>
+  
+  <section class="container my-5" id="services">
+    <h2 class="text-center fw-bold mb-4">Nuestros Servicios</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Compra y Venta</h5>
+            <p class="card-text">Camisas de alta calidad listas para ti, con envíos a todo el país.</p>
           </div>
         </div>
-      </main>
-    </div>
-    
-          <div class="container my-5 d-flex justify-content-center">
-            <form id="form-contacto" method="post" action="form.php">
-              <h4 class="fw-bold text-center">
-                Contáctame llenando este formulario
-              </h4>
-              <div class="form-group">
-                <label>Nombres:</label>
-                <input type="text" placeholder="Tus Nombres" class="form-control" />
-              </div>
-              <div class="form-group">
-                <label>Apellidos:</label>
-                <input
-                  type="text"
-                  placeholder="Tus Apellidos"
-                  class="form-control"
-                />
-              </div>
-              <div class="form-group">
-                <label>Correo:</label>
-                <input type="email" placeholder="Tu Email" class="form-control" />
-              </div>
-              <div class="form-group">
-                <label>Motivo:</label>
-                <textarea class="form-control"></textarea>
-              </div>
-              <div class="d-grid">
-                <input
-                  type="submit"
-                  value="Send"
-                  class="btn btn-block btn-primary"
-                />
-              </div>
-            </form>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Personalización</h5>
+            <p class="card-text">Diseña tu propia camisa con opciones únicas de colores, estampados y texturas.</p>
           </div>
-        <footer>
-          <p class="footer">Todos los derechos reservados a esa mentirosa</p>
-        </footer>
-        <script src="JS/second_page.js"></script>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Pedidos Corporativos</h5>
+            <p class="card-text">Ofrecemos soluciones a empresas con uniformes personalizados de alta calidad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container py-5 bg-light" id="contact">
+    <h2 class="text-center fw-bold mb-4">Contáctanos</h2>
+    <p class="text-center">Envíanos un mensaje y nuestro equipo se pondrá en contacto contigo.</p>
+    <form class="p-4 border rounded bg-white shadow-sm">
+      <div class="mb-3">
+        <label class="form-label">Nombre:</label>
+        <input type="text" class="form-control" placeholder="Tu Nombre" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Correo Electrónico:</label>
+        <input type="email" class="form-control" placeholder="Tu Email" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Mensaje:</label>
+        <textarea class="form-control" rows="4" placeholder="Tu mensaje" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Enviar</button>
+    </form>
+  </section>
+  
+  <footer class="text-center py-3 bg-dark text-white">
+    <p>© 2024 Shield Shirts - Innovando la moda con tecnología.</p>
+  </footer>
 </body>
 </html>
